@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Certifications</a></li>
+                    <li><a href="#portfolio">My Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>CS&IT Student at K L University</p>
+                <h1>Hi, I'm <span>V Chetan Pannag<br>from Vijayawada,India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        I am a UI/UX Designer and Full-Stack Developer with a passion for creating user-friendly digital experiences.I have expertise in tools like Figma, Adobe XD,<br>
+                        and Tailwind CSS. My programming skills include Python, Java, and MERN Stack development. I am currently pursuing a B.Tech in Computer Science <br>& Information Technology. I have experience working with cloud technologies like AWS and database systems such as MySQL and PostgreSQL. <br>I enjoy solving problems and building innovative solutions. My goal is to contribute to projects that combine creativity and technology.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>AWS Cloud Practitioner - <a style="color: #2e605c;" href="Images/#here goes your certificate file name" download>Verify</a></span><br><br>Amazon Web Services (AWS)</li><br>
+                            <li><span>Unity Certified User Programmer</span><br><br>Unity</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026</span><br><br>B.Tech in Computer Science & Information Technology, KL University</li><br>
+                            <li><span>2022</span><br><br>Intermediate from Sarada Educational Institution</li><br>
+                            <li><span>2020</span><br><br>SSC from Siddhartha English Medium High School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents  active-tab" id="projects">
+                        <ul>
+                            <li><span>Academic Conference Management</span><br><br>Academic Conference Management refers to the iterative process of developing and refining a model or framework for organizing and executing conferences.<br>This approach allows organizers to visualize, test, and improve various aspects of conference planning before the actual event takes place.</li><br>
+                            <li><span>Campus Placement/Recruitment Management System</span><br><br>A Campus Placement/Recruitment Management System is a software platform designed to streamline and automate the recruitment process in<br>educational institutions.It connects students, recruiters, and placement officers in a centralized system for efficient collaboration.</li><br>
+                            <li><span>CHOOSE : The Food Delivery App - <a style="color: #8c00ff;" href="https://www.figma.com/proto/bD7fMd59qukIB5MJwliBkX/iOS-Food-Delivery-App-Design-and-Prototyping-(Community)-(Community)?page-id=2001%3A1427&node-id=4035-206&p=f&viewport=-1615%2C-69%2C0.94&t=zfaLWzdHLCWqL9gg-1&scaling=scale-down&content-scaling=fixed">Check It Out</a></span><br><br>It's the new way to order food. Choose, Eat, Repeat.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Certifications</h1>
+            <div class="services-list">
+                <div>
+                    <h2>AWS Cloud Practitioner</h2>
+                    <p>Amazon Web Services (AWS)</p>
+                    <a href="Images/#here goes your certificate file name">Verify</a>
+                </div>
+                <div>
+                    <h2>Certified User Programmer</h2>
+                    <p>Unity</p>
+                    <a href="#"></a>
+                </div>
+                <div>
+                    <h2>Coming Soon . . .</h2>
+                    <p>. . .</p>
+                    <a href="Images/DevOps Foundation.pdf"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Skills</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/team work.jpg">
+                    <div class="layer" style="background: linear-gradient(rgba(0, 0, 0, 0.6), #ffffff);">
+                        <h1>Soft Skills</h1>
+                        <h2>Communication, Negotiation, Leadership and Problem Solving</h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/UI&UX.jpg">
+                    <div class="layer" style="background: linear-gradient(rgba(0, 0, 0, 0.6), #ffee00);">
+                        <h1>UI / UX</h1>
+                        <h2>Experienced in Figma, Canva, Adobe XD, HTML, CSS(Tailwind)</h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Full Stack Development.jpg">
+                    <div class="layer" style="background: linear-gradient(rgba(0, 0, 0, 0.6), #632001);">
+                        <h1>Full-Stack Development</h1>
+                        <h2>Python Full-Stack with Django, Java Full-Stack with Microservices, MERN Stack Development</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Programming Languages.jpg">
+                    <div class="layer">
+                        <h1>Programming Languages</h1>
+                        <h2>Python, Java, C</h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Database.jpg">
+                    <div class="layer" style="background: linear-gradient(rgba(0, 0, 0, 0.6), #0084ff);">
+                        <h1>Database Languages</h1>
+                        <h2>MySQL, PostgreSQL</h2>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Cloud Tech.jpg">
+                    <div class="layer" style="background: linear-gradient(rgba(0, 0, 0, 0.6), #8c00ff);">
+                        <h1>Cloud Technologies</h1>
+                        <h2>Amazon Web Services (AWS)</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1><br>
+                    <h3>Mail @ <a href="mailto:chetanduke4444@gmail.com">chetanduke4444@gmail.com</a></h3><br>
+                    <h3>Mail @ <a href="mailto:2200090146@kluniversity.in">2200090146@kluniversity.in</a></h3><br>
+                    <h3>Call @ <a href="tel:+919030629409">+91 9030629409</a></h3>
+                    <a href="Images/V Chetan Pannag's Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email Address" required>
+                        <textarea name="Message" rows="6" placeholder="Type Your Message Here..." required></textarea>
+                        <button type="submit" class="btn btn2">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Desinged and Developed by AMC</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+</html>
